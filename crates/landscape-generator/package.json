@@ -1,0 +1,20 @@
+{
+  "name": "landscape-generator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:wasm": "wasm-pack build --target web",
+    "dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./pkg/generator.js",
+  "types": "./pkg/generator.d.ts",
+  "files": [
+    "./pkg/generator_bg.wasm",
+    "./pkg/generator.js",
+    "./pkg/generator.d.ts"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
